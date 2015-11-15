@@ -1,0 +1,2 @@
+19:26:01,042 [main      ] INFO  (jaxws.TimeServicePublisher) Servicio desplegado - [linea:16]
+19:26:58,786 [main      ] INFO  (jaxws.TimeServiceClient) Time: Sun Oct 25 19:26:58 COT 2015 - [linea:31]

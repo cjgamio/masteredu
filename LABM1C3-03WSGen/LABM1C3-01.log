@@ -1,0 +1,2 @@
+23:27:26,737 [main      ] INFO  (jaxws.CalculadoraPublish) Servicio arrancado...!! - [linea:14]
+23:27:56,713 [main      ] INFO  (jaxws.CalculadoraClient) Resultado = 12 - [linea:22]

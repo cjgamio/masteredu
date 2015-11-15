@@ -1,0 +1,14 @@
+18:11:07,033 [main      ] INFO  (jaxb.JAXBMarshall:33) Salida:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elprofe>
+    <codigo>1234</codigo>
+    <nombreone>Juan</nombreone>
+    <apellido>Perez</apellido>
+    <fechaIngreso>2015-11-05T00:00:00-05:00</fechaIngreso>
+</elprofe>
+
+18:12:00,019 [main      ] INFO  (jaxb.JAXBUnMarshall:23) Datos del profesor:
+18:12:00,019 [main      ] INFO  (jaxb.JAXBUnMarshall:24) Codigo : 1234
+18:12:00,019 [main      ] INFO  (jaxb.JAXBUnMarshall:25) Nombre : Juan
+18:12:00,019 [main      ] INFO  (jaxb.JAXBUnMarshall:26) Apellidos : Perez
+18:12:00,019 [main      ] INFO  (jaxb.JAXBUnMarshall:27) FechaIngreso : Thu Nov 05 00:00:00 COT 2015

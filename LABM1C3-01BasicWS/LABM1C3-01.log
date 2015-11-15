@@ -1,0 +1,3 @@
+18:45:33,894 [main      ] INFO  (jaxws.TimeServicePublisher) En ejecución ... - [linea:14]
+18:47:02,633 [main      ] INFO  (jaxws.TimeServiceClient) Time String=[Sun Oct 25 18:47:02 COT 2015] - [linea:35]
+18:47:02,637 [main      ] INFO  (jaxws.TimeServiceClient) Time Long=[1445816822636] - [linea:37]

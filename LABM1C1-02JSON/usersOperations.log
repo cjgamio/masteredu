@@ -1,0 +1,15 @@
+18:12:41,519 [main      ] INFO  (json.JSONMarshall:38) 
+ {
+  "nombrecomercial" : "Java Architec App Developer",
+  "codigo" : 1234,
+  "modulos" : [ "Fundamentos", "Arquitectura web" ],
+  "fechaInicio" : 1445835600000,
+  "fechaFin" : 1459659600000
+}
+18:13:23,772 [main      ] INFO  (json.JSONUnMarshall:19) 
+ Datos del programa: 
+18:13:23,787 [main      ] INFO  (json.JSONUnMarshall:20) Codigo: 1234
+18:13:23,787 [main      ] INFO  (json.JSONUnMarshall:21) Nombre: Java Architec App Developer
+18:13:23,787 [main      ] INFO  (json.JSONUnMarshall:22) FechaInicio: Mon Oct 26 00:00:00 COT 2015
+18:13:23,787 [main      ] INFO  (json.JSONUnMarshall:23) FechaFin: Sun Apr 03 00:00:00 COT 2016
+18:13:23,787 [main      ] INFO  (json.JSONUnMarshall:24) Modulos: [Fundamentos, Arquitectura web]
