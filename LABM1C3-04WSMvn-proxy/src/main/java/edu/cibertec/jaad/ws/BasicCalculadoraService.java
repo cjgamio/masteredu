@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "BasicCalculadoraService", targetNamespace = "http://jaxws.jaad.cibertec.edu/", wsdlLocation = "file:/C:/JAAD-2015-III/03_Laboratorios/Modulo01/LABM1C3-04WSMvn-proxy/src/wsdl/calcws.wsdl")
+@WebServiceClient(name = "BasicCalculadoraService", targetNamespace = "http://jaxws.jaad.cibertec.edu/", wsdlLocation = "file:/D:/repositorioCibertecGit/masteredu/LABM1C3-04WSMvn-proxy/src/wsdl/calcws.wsdl")
 public class BasicCalculadoraService
     extends Service
 {
@@ -30,7 +30,7 @@ public class BasicCalculadoraService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("file:/C:/JAAD-2015-III/03_Laboratorios/Modulo01/LABM1C3-04WSMvn-proxy/src/wsdl/calcws.wsdl");
+            url = new URL("file:/D:/repositorioCibertecGit/masteredu/LABM1C3-04WSMvn-proxy/src/wsdl/calcws.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
