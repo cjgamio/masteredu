@@ -1,8 +1,9 @@
 #Ignorar los archivos generados del workspace y del target del maven.
-target/* 
-/target/ 
-.metadata 
-tar.gz 
-.classpath 
-.project 
-*/.settings/
+#target/* /target/ .metadata tar.gz .classpath .project */.settings/
+.classpath
+.project
+.settings/
+target/
+
+
+
