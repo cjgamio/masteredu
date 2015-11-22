@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://ws.cesar.com/" xmlns:tns="http://ws.cesar.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="crearTrabajador" type="tns:crearTrabajador"/>
+
+  <xs:element name="crearTrabajadorResponse" type="tns:crearTrabajadorResponse"/>
+
+  <xs:element name="encontrarTrabajador" type="tns:encontrarTrabajador"/>
+
+  <xs:element name="encontrarTrabajadorResponse" type="tns:encontrarTrabajadorResponse"/>
+
+  <xs:element name="listarTodo" type="tns:listarTodo"/>
+
+  <xs:element name="listarTodoResponse" type="tns:listarTodoResponse"/>
+
+  <xs:element name="trabajador" type="tns:trabajador"/>
+
+  <xs:complexType name="encontrarTrabajador">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="encontrarTrabajadorResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:trabajador" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="trabajador">
+    <xs:sequence>
+      <xs:element name="apellido" type="xs:string" minOccurs="0"/>
+      <xs:element name="categoria" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigo" type="xs:string" minOccurs="0"/>
+      <xs:element name="edad" type="xs:int"/>
+      <xs:element name="fechaIngreso" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listarTodo">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="listarTodoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:trabajador" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="crearTrabajador">
+    <xs:sequence>
+      <xs:element name="arg0" type="tns:trabajador" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="crearTrabajadorResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
